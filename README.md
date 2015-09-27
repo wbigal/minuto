@@ -5,6 +5,6 @@
 
 ## Passo a passo
 Na raíz do projeto:
-1) Instale as dependências: `bundle install`
-2) Rode os testes `rspec`
-3) Execute o contador: `ruby main.rb`
+- Instale as dependências: `bundle install`
+- Rode os testes `rspec`
+- Execute o contador: `ruby main.rb`
