@@ -12,4 +12,5 @@ end
 group :test do
   gem 'factory_girl'
   gem 'webmock'
+  gem 'simplecov', :require => false
 end

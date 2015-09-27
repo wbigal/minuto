@@ -1,6 +1,9 @@
 require 'rubygems'
 require 'factory_girl'
 require 'webmock/rspec'
+require 'simplecov'
+
+SimpleCov.start
 
 Dir[File.dirname(__FILE__) + "/../app/**/*.rb"].each { |file| require_relative file }
 Dir[File.dirname(__FILE__) + "/factories/*.rb"].each { |file| require_relative file }
